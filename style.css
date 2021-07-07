@@ -6,7 +6,10 @@ body {
     color: black;
     h4.dashed: border-style: dashed;
   }
-
+h4 {
+  color: white;
+  border-style: dashed;
+}
 p {font-size: 16px;}
 .margin {margin-bottom: 15px;}
 
