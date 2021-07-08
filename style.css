@@ -5,6 +5,8 @@ h3 {
 	border-color: white;
 }
 div {
-	background-image: url(techbackground.jpg);
+	background-image: url('techbackground.jpg');
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
 }
