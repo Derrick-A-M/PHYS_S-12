@@ -1,9 +1,3 @@
-body {
-	background-image: url(technbackground.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-}
 h3 {
 	color: white;
 	text-align: center;
@@ -11,5 +5,8 @@ h3 {
 	border-color: white;
 }
 div {
-	background-color: blueviolet;
+	background-image: url(technbackground.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
