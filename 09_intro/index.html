@@ -12,31 +12,38 @@
 <body style="height:1100px">
 
 <div class="container-fluid">
-  <h3>Week 1: Introduction </h3> <br> 
+  <h3>Week 9: Networking/IoT </h3> <br> 
   <div class="row">
     
       <div class="col-md-4">
-        <p> Here is an image of my GitHub page in Sublime: </p>
+        <h3>FEATHER-LED SWITCH</h3>
+        <p> In week 9, our class explored the world of networking and communication. We learned how to apply wireless networking in our microcontroller boards and circuits, and our assignment was to control using the information obtained this week. For my assignment, I made a simple LED switch that used Firebase to control whether an LED turns on or off. In preparation for our upcoming final projects, I intented to keep my work simple. I followed the instruction for HUZZAH tutorial 1b, which demonstrates how to use the wbesite called Firebase to control our board. I started off by making a basic led circuit on my breadboard, with a yellow LED, a 470 ohm resistor and the esp32 feather board. </p>
 
-        <img src="./github-week1.png" class="img-responsive margin" style="width:90%" alt="GHUB week 1">
+        <img src="./week9LED.JPG" class="img-responsive margin" style="width:90%" alt="NETLED">
 
-        <p> And here is a <a href='../09_intro/indexnetwork.html'>link</a></p>
+       
       </div>
      
       <div class="col-md-4">
-        <p> Although I had no knowledge about GitHub, I knew a little bit about coding from previous classes in middle school. I started by editing the default page that was set up for me. I followed up by adding logos to the week numbers on the main screen, to give a visual idea of the topics of said weeks. Inserting some of the images was tedious, as some pictures were too large or too small. To overcome this I edited the width and height of the images. Next, I tried to add a color and vibrant background, only for it to have 6 images of the same background all at once, when i only need one. After several frustrating minutes, I decided to make my background a simple blueviolet color for the time being.  </p> 
+        <p> Next, I logged into firebase with my google account, and created a project for my assignment. Initally, I thought this whole task was going to be overly complicated, as I had no clue on how networking even works. To my surprise, the tutorial was extremely simple. I edited the rules in the realtime database, wrote down the huzzah's secret key & database URL, and applied to the example code provided. When I tried to get the circuit to work, nothing happened. I had an error that tld me the Firebase ESP32 library was not detected, so I had to install it and the rest is history; I was able to turn the LED on and off by typing "on" and "off" in the realtime database console. I checked the serial monitor for my board, and was able to know when teh LED was on or off. A step in the right direction, but there wwas still work to be done.  </p>
+        <img src="./week9offLED.JPG" class="img-responsive margin" style="width:60%; height:300px" alt="NEToff">
+
+        <img src="./week9onLED.JPG" class="img-responsive margin" style="width:60%; height:300px" alt="NETon">
    
     
       </div>
 
       <div class="col-md-4">
-        <h2>PROJECT IDEAS</h2>
-        <h3>Mosquito-Killer</h3>
-        <p> My first idea for my final project was a random thought. In our class' 1st breakout room, I noticed a mosquito in my room and started thinking about how they bugged me all summer, especially when I was sleeping. I brainstormed about making something that would zap mosquitos into oblivion, but it seemed impractical and honestly, pretty dangerous. </p> 
-        <h3>Bottle-Cap opening robot</h3>
-        <p>This robot would grab a bottle using two claws, and a robotic arm at the top would place a bottle opener on the cap of something similar to a beer bottle to open it. I got the idea from my Dad's cap-opener on his keys and wanted to make a new design and put it on a robot. I took the advice of creating something that makes us lazier people</p>
-        <h3>Wall-Painting Robot</h3>
-        <p>This robot would go up and down walls, painting as it goes up and down. i would attached wires to the robot that are connected to nails on a wall, so that it can pull its self up. To paint the wal, I would add a roller underneath the bot.</p>
+        <h3>Adding a Web Interface</h3>
+        <p> To intemplate a better UI, I copied the second example code and create a new index.html under my week 9 folder in sublime text. i went back to firebase, clicked the web icon, and named the app used for the assignment. This process adds firebase to the application being used. To finish it all off, I edited the firebaseConfig with the codes given to me after naming the app. The link to control the LED and the board was made, and added to my repository on GitHub.</p>
+        <h2>LED SWITCH LINK</h2>
+        <p> And here is the networking link I used: <a href='../09_intro/indexnetwork.html'>link</a></p>
+
+        <p>A video of the end result:</p>
+        <video width="240" height="320" controls>
+          <source src="week9net.mp4" type="video/mp4">
+        </video>
+
    
         
       </div>
