@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PHYS S-12: Intro to Digital Fabrication </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+  <link href="../style.css" rel="stylesheet">
+</head>
+<body style="height:1100px">
+
+<div class="container-fluid">
+  <h3>FINAL PROJECT </h3> <br> 
+  <div class="row">
+    
+      <div class="col-md-4">
+        <p> After 7 long weeks, our course comes to an end as we combine the lessons we learned in class to create our final project. My final project is a fairly simple one: a wall-painting machine that when activated on a computer, would paitn up and down a surface. To create this project, I integrated my machine work in week 10 with networking learned in week 9, along with 3D design in week 6. I received my 3D printed piece from my instructor, and I was able to attach it to the wooden machines i constructed. Using the esp32 feather board, i was able to send a message from my Firebase to the board so that the motors could lift the motors upwward. Below is the first prototype of the project:  </p>
+
+        <img src="./final_idea.JPG" class="img-responsive margin" style="width:90%" alt="GHUB week 1">
+
+        <p> And here is the code I used: </p>
+        <iframe src=https://create.arduino.cc/editor/bigdilf03/fab03efc-0f28-4754-88e8-c9705f84e151/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>   </div>
+        <p> The Firebase:</p>
+        <img src="./IMG_2001.JPG" class="img-responsive margin" style="width:90%" alt="Firebase">
+
+        <p>The serial monitor of the Huzah board:</p>
+        <img src="./IMG_1991.JPG" class="img-responsive margin" style="width:90%" alt="serial">
+     
+      <div class="col-md-4">
+        <h3>Malfunctioning</h3>
+        <p> After building the prototype, hooking up wires to the motor and microcontroller, I set up code and was expecting great results. However, I ran into a multitiude of errors in Aduino IDE as I wanted to have both motors move at the same time. Luckily Mr. Melenbrink and Ms. Shen were able to provide helpful input to modify my code so that the motors would activate. Once again, I expected my project to take flight, only for another obstacle to take place. Despite the proper code and wiring, only one of the motors would not operate. The error happened as the motor driver attached to it appeared to have been damaged, possibly due  to the capacitors having an effect on it.  It was extremely frustrating, putting hours into it just to fall so close but so short in the end. The working motor coulding move with the other immovble motor attached to the paint roller, so as a last ditched effort I removed the defect motor along with the wooden parts. i was left with one working motor, that still wasn't strong enough to move the roller. T add insult to injury, it couldn't stand up on its own so to get a somewhat working project I set it vertically over a piece of paper. I put paint over my roller and hoped for the best.  </p>
+
+        <video width="240" height="320" controls>
+          <source src="project_demo.mp4" type="video/mp4">
+        </video> 
+   
+    
+      </div>
+
+      <div class="col-md-4">
+        <h2>PROJECT IDEAS</h2>
+        <h3>Mosquito-Killer</h3>
+        <p> My first idea for my final project was a random thought. In our class' 1st breakout room, I noticed a mosquito in my room and started thinking about how they bugged me all summer, especially when I was sleeping. I brainstormed about making something that would zap mosquitos into oblivion, but it seemed impractical and honestly, pretty dangerous. </p> 
+        <h3>Bottle-Cap opening robot</h3>
+        <p>This robot would grab a bottle using two claws, and a robotic arm at the top would place a bottle opener on the cap of something similar to a beer bottle to open it. I got the idea from my Dad's cap-opener on his keys and wanted to make a new design and put it on a robot. I took the advice of creating something that makes us lazier people</p>
+        <h3>Wall-Painting Robot</h3>
+        <p>This robot would go up and down walls, painting as it goes up and down. i would attached wires to the robot that are connected to nails on a wall, so that it can pull its self up. To paint the wal, I would add a roller underneath the bot.</p>
+   
+        
+      </div>
+
+
+  </div>
+
+ 
+  
+  
+</div>
+
+</body>
+</html>
